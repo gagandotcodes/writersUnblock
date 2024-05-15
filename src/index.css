@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Regular';
+    src: local('Sanchez-Regular'),
+    url('assets/fonts/Sanchez-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: local('Sanchez-Regular'),
+    url('assets/fonts/Sanchez-Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Bold';
+    src: local('Sanchez-Regular'),
+    url('assets/fonts/Sanchez-Regular.ttf') format('truetype')
+}
+
+/* Light Mode */
+.light-mode {
+    background-image: url('https://images.pexels.com/photos/10775785/pexels-photo-10775785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    transition: opacity 0.7s ease-in-out;
+  }
+  
+  /* Dark Mode */
+  .dark-mode {
+    background-image: url('https://media.istockphoto.com/id/1285812374/photo/black-sand-beach-macro-photography-texture-of-black-volcanic-sand-for-background-close-up.jpg?s=1024x1024&w=is&k=20&c=qV1guRLdrlb524m3fmQoe_iqswYHULzlqS0o5znVlG4=');
+    transition: opacity 0.7s ease-in-out;
+  }
