@@ -44,7 +44,7 @@ const EnterManually = () => {
               disabled={isButtonDisabled}
               id="keyword"
               rows="1"
-              class="p-3 w-full text-s font-primaryRegular bg-slate-700 dark:bg-white rounded-full dark:placeholder-gray-400 dark:text-black text-white transition duration-700 ease-in-out"
+              className="p-3 w-full text-s font-primaryRegular bg-slate-700 dark:bg-white rounded-full dark:placeholder-gray-400 dark:text-black text-white transition duration-700 ease-in-out"
               placeholder="eg: Harry Potter"
               value={keyword}
               onChange={(e) => setKeyword(e.target.value)}
